@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#site{
+   
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#topo{
+    background-image: url(imagem/livro1.jpg);
+    height: 300px;
+}
+
+#menu ul{
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+#menu li{
+    display: inline;
+   
+    text-transform: uppercase;
+}
+
+#menu a:link, a:visited{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+#menu a:hover,a:active {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.fundoForme{
+    border: solid 1px black;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+
+.form{
+    width: 250px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.form button{
+    padding: 08px;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.form button:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    line-height: 60px;
+    color: white;
+}
+
