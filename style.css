@@ -1,80 +1,94 @@
+                    /*geral e index*/
 *{
     margin: 0;
     padding: 0;
 }
 #site{
-   
-    max-width: 1200px;
-    margin: auto;
+            /* centralizando o site*/
+    max-width: 1200px; 
+    margin: auto; 
     border: 1px solid black;
 }
 
 #topo{
-    background-image: url(imagem/livro1.jpg);
-    height: 300px;
+    
+    background-image: url(imagem/livro1.jpg);/*imagem do banner */
+    height: 300px;/*altura da img */
 }
 
 #menu ul{
-    text-align: right;
-    padding: 10px;
-    background-color: rgb(0, 0, 0, 0.5);
-    line-height: 30px;
+    text-align: right;/*alinhamento do menu */
+    padding: 10px;/* distanciamento das bordas*/
+    background-color: rgb(0, 0, 0, 0.5);/*cor de fundo */
+    line-height: 30px; /*altura do menu */
 }
 #menu li{
-    display: inline;
-   
-    text-transform: uppercase;
+    display: inline; /* deixar na horizontal */
+    text-transform: uppercase; /*todas as letras maiusculas */
 }
 
 #menu a:link, a:visited{
-    text-decoration: none;
-    padding: 5px;
+    text-decoration: none; /*sem os elementos do menu */
+    padding: 5px; 
     color: white;
 }
 
-#menu a:hover,a:active {
+#menu a:hover,a:active { /*mudar a cor quando passa o mouse */
     background-color: white;
     color: black;
     border-radius: 8px;
     padding: 10px;
-
 }
 
-.fundoForme{
-    border: solid 1px black;
-    width: 500px;
-    height: 400px;
+
+/*------------------------------------------------------------------------------*/
+                        /* forularios- login e cadastro*/
+
+.fundoForme{ /* quadrado do formulario*/
+    border: solid 1px black; /*linha do quadrado */
+    width: 500px; /*largura  */
+    height: 400px; /*altura */
     margin: auto;
 }
 
-.form{
-    width: 250px;
-    margin: auto;
-    margin-top: 30px;
-    text-align: center;
+.form{ /*formulario */
+    width: 250px;  /*largura */
+    margin: auto; /*centralizar  */
+    margin-top: 30px; /*distancia do topo */
+    text-align: center;/*alinhamento do texto */ 
 }
 
-.form input{
-    width: 100%;
-    margin-bottom: 8px;
-    padding: 5px;
+.form input{ /* inputs do formulario*/
+    width: 100%;/*largura  */
+    margin-bottom: 8px;/*distancia entre os campos */
+    padding: 5px; /*tamanho interno do campos */
+  
+    
 }
-.form button{
-    padding: 08px;
+.form button{ /* botão */
+    padding: 08px; 
     text-transform: uppercase;
     background-color: rgb(0, 0, 0, 0.5);
+    color: white;
     border-radius: 10px;
 }
 
-.form button:hover{
+.form button:hover{ /* quando passo o mouse */
     background-color: white;
     color: black;
 }
 
-footer{
+form a:visited, a{
+    color: black;
+}
+
+footer{ /*rodapé */
     text-align: center;
     background-color: black;
     line-height: 60px;
     color: white;
 }
+
+/*----------------------------------------------------------------------*/
+            /**/
 
