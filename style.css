@@ -47,7 +47,7 @@
 .fundoForme{ /* quadrado do formulario*/
     border: solid 1px black; /*linha do quadrado */
     width: 500px; /*largura  */
-    height: 400px; /*altura */
+    height: 500px; /*altura */
     margin: auto;
 }
 
@@ -61,10 +61,9 @@
 .form input{ /* inputs do formulario*/
     width: 100%;/*largura  */
     margin-bottom: 8px;/*distancia entre os campos */
-    padding: 5px; /*tamanho interno do campos */
-  
-    
+    padding: 5px; /*tamanho interno do campos */  
 }
+
 .form button{ /* botão */
     padding: 08px; 
     text-transform: uppercase;
@@ -89,6 +88,50 @@ footer{ /*rodapé */
     color: white;
 }
 
+.sexo input{
+    width: 15px;/*largura  */  
+}
+
+
+
+/*----------------------------------------------------------------------*/
+            /*home noticias*/
+.noticia{
+    background-color: rgb(185, 185, 162) ;
+    float: left;
+    margin: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.campo1{
+    float: left;
+    width: 30%;
+}
+
+.campo2 {
+    float: left;
+    width: 40%;
+    border-radius: 10px;
+   
+     
+}
+.campo2 .noticia{
+    background-color: rgb(68, 143, 143);
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.campo3{ 
+    float: right;
+    width: 30%;
+}
+
+.clear{ 
+    clear: both;
+}
+
+
 /*----------------------------------------------------------------------*/
             /**/
-

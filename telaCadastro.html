@@ -45,12 +45,13 @@
                 </div>
             </div>
 
-        </section>  
+        </section>
         <!-- parte maior por trás do formulario-->
         <Section class="container2">
             <!--Separa para coloca a logo -->
             <aside id="logo">
                 <br><br><br><br>
+
             </aside>
             <!--quadrado do formulario -->
             <aside>
@@ -61,11 +62,22 @@
                         <H2>Criar Conta</H2><br>
 
                         <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+                        <input type="text" name="cpf" id="cpf" placeholder="CPF">
                         <input type="email" name="email" placeholder="E-mail"><br>
-
                         <input type="password" name="senha" placeholder="Senha">
-                        <p></p></a>
+                        <input type="password" name="senha" placeholder="Confirmar Senha">
+                        <input type="date" name="data" id="data">
 
+                        <!--campos sexo -->
+                        <div class="sexo">
+                          
+                            <label for="genero">Genero</label><br>
+                            <label><input type="radio" name="genero" value="Masculino">Masculino</label>
+                            <label><input type="radio" name="genero" value="Feminino">Feminino</label>
+                            <label><input type="radio" name="genero" value="Outros">Outros</label>
+                        </div><br>
+
+                        <!--para o user voltar para a tela "login" -->
                         <a href="telaLogin.html">
                             <p>Entrar Com Login</p>
                         </a><br>
